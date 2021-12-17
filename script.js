@@ -17,6 +17,7 @@ function decreaseLike() {
   if (likeCounter <= 0) {
     decreaseBtn.disabled = true;
   } else {
+    //change was made here!!
     likeCounter -= 1;
     decreaseBtn.disabled = false
   }
