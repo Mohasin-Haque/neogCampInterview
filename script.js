@@ -11,12 +11,13 @@ function increaseLike() {
 
 
 function decreaseLike() {
-  likeCounter -= 1;
   outputDiv.innerText = likeCounter
   // enabler();
   if (likeCounter <= 0) {
     decreaseBtn.disabled = true;
   } else {
+  likeCounter -= 1;
+    
     decreaseBtn.disabled = false
   }
 }
